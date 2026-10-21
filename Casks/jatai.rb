@@ -4,21 +4,21 @@ cask "jatai" do
 
   on_macos do
     on_arm do
-      sha256 "648c07ff117761f464a2e6a2bad56fea1ee1568a53b2d462d4ab9109e2ae326b"
+      sha256 "3a0fdd0b1475de23dbd0eb549345dec908e74d1537ae243c9069b6690733bb29"
       url "https://github.com/JataiCloud/cli/releases/download/v#{version}/jatai_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b66eeeff5d25798ac7d32e52649e10ae74ed479df2d8b4419ba03be3ce42e649"
+      sha256 "94e42b760ca7651ec1db75c1915f92698d1dd0292efa6a6674b294279cb653d1"
       url "https://github.com/JataiCloud/cli/releases/download/v#{version}/jatai_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "57996e6919be878b681390ec50bcd9d91bcef6936116592165b672b39cf29ca4"
+      sha256 "5b57d219327b7491d523f57653da2a0f3710f933c49fce4c36c35d501753fdf4"
       url "https://github.com/JataiCloud/cli/releases/download/v#{version}/jatai_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e02186856ee5067af1997cc900330fbfcbf4c12b37570ce62ec978b08ded6725"
+      sha256 "f4b10bb602a4fc58a7b74096e24b2139ef6a88cc8a60c25dab8ca6e286f3a5e5"
       url "https://github.com/JataiCloud/cli/releases/download/v#{version}/jatai_#{version}_linux_amd64.tar.gz"
     end
   end
